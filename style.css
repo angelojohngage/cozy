@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Header Section */
+header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+
+}
+
+.logo {
+  display: inline-flex;
+  margin-left: 10px;
+
+}
+
+.tea-cozy {
+  height: 50px;
+}
+
+.navigation {
+  display: inline-flex;
+  margin-right: 10px;
+
+}
+
+a {
+  color: seashell;
+}
