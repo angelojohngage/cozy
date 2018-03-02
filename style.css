@@ -8,6 +8,7 @@ body {
   display: flex;
   margin: 0 auto;
   width: 100%;
+  
 }
 
 /* Header Section */
@@ -41,4 +42,34 @@ header {
 
 a {
   color: seashell;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 69px;
+}
+
+/* Mission Section */
+
+.mission {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(images/img-mission-background.jpg);
+}
+
+.our-mission {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: black;
+  width: inherit;
+  height: 140px;
+
 }
