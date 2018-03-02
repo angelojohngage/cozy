@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 100%;
+
 
 }
 
@@ -52,8 +52,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 0 auto;
   margin-top: 69px;
+
 }
 
 /* Mission Section */
@@ -81,7 +81,7 @@ a {
 /* Featured Tea Section */
 
 .teas {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   width: 1000px;
@@ -91,7 +91,8 @@ a {
 }
 
 .tea-pic {
+  display: inline-flex;
   height: 200px;
   width: 300px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
