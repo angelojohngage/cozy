@@ -6,9 +6,10 @@ body {
   opacity: 0.9;
   text-align: center;
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: 100%;
-  
+
 }
 
 /* Header Section */
@@ -16,7 +17,8 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1;
+  background-color: black;
+  z-index: 10;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -48,6 +50,7 @@ a {
 
 .content {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   margin-top: 69px;
 }
@@ -72,4 +75,24 @@ a {
   width: inherit;
   height: 140px;
 
+}
+
+/* Featured Tea Section */
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+
+}
+
+.tea-pic {
+  display: inline-flex;
+
+  justify-content: center;
+  align-content: space-between;
+  height: 200px;
+  width: 300px;
 }
