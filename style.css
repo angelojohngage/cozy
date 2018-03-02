@@ -82,23 +82,15 @@ a {
 
 .teas {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 1000px;
-  height: 700px;
   margin: 0 auto;
-
 }
 
-.tea-pic {
-  display: inline-flex;
+.tea-pic img {
   height: 200px;
   width: 300px;
-  margin-bottom: 10px;
-}
-
-img {
-  height: 200px;
-  width: 300px;
+  padding: 10px;
 
 }
