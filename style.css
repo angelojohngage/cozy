@@ -101,9 +101,40 @@ a {
 
 /* Locations Section */
 
+
 .locations {
-  display: flex;
-  justify-content: space-around;
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.locations h2 {
+  margin-top: 69px;
+  margin-bottom: 15px;
+
+}
+
+.places {
+  display: inline-flex;
+  flex-direction: row;
   align-items: center;
+  margin-left: 40px;
+}
+
+.place {
+ align-items: center;
+ height: 300px;
+ width: 300px;
+ background-color: black;
+ opacity: 1;
+ margin-right: 40px;
+
+
+}
+
+.place-text {
+  display: flex;
+  flex-direction: column;
 
 }
