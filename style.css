@@ -115,6 +115,7 @@ a {
 
 }
 
+
 .places {
   display: inline-flex;
   flex-direction: row;
@@ -137,4 +138,15 @@ a {
   display: flex;
   flex-direction: column;
 
+}
+
+/* Footer/Copyright */
+
+.info {
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
 }
